@@ -1,0 +1,45 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment
+.venv/
+env/
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project Specific
+*.log
+*.txt
+!requirements.txt
+!.env.example
+!README.md
+!TRANSLUCENTTB_GUIDE.md
+!TYPING_SPEED_FIX.md
+!UMS_ATTENDANCE_IMPROVEMENTS.md
+!UMS_LOGIN_FIXES.md
+
+# Media/Temp
+*.jpg
+*.png
+*.mp3
+*.exe
+*.vbs
+*.bat
+*.pkl
+*.yml
+!unlock.vbs
+!unlock_bridge.vbs
+!start_bot.bat
+
+# Lock files
+bot.lock
+running.flag
+clean_shutdown.flag
